@@ -1,0 +1,30 @@
+.bt {
+    margin-left: 12px;
+}
+
+.items {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 24px;
+    padding: 6px;
+}
+
+.items:hover {
+    background: dodgerblue;
+    border-radius: 6px;
+}
+
+.close {
+    color: gray;
+    text-decoration: line-through;
+}
+
+.filter {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    margin-top: 24px;
+}
